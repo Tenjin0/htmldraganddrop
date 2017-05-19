@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css">
+    <link rel="stylesheet" href="./index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="setting">
+            <div class="setting image_picker">
+                <h2>Image</h2>
+                <div class="setting_wrap">
+                    <label for="" class="drop_target">
+                        <div class="image_preview">
+                            
+                        </div>
+                        <input id="inputFile" type="file"/>
+                    </label>
+                    <div class="settings_actions vertical">
+                        <a href="" data-action="choose_from_uploaded">
+                            <i class="fa fa-picture-o"></i> Choose from Uploads
+                        </a>
+                        <a href="" class="disabled" data-action="remove_current_image">
+                            <i class="fa fa-ban"></i> Remove Current Image
+                        </a>
+                        <div class="image_details">
+                            <label for="" class="input_line image_title">
+                                <input type="text" placeholder="Title"/>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>

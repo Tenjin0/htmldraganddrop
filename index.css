@@ -1,0 +1,52 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    background: #eee;
+    font-family: "Open Sans", Helvetica, sans-serif
+}
+
+.setting {
+    background: #fff;
+    margin: 0 auto 3px;
+    padding: 12px;
+    widows: 300px;
+}
+
+.setting h2 {
+    color: #999;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 0 6px;
+    line-height: 24px;
+}
+
+.setting a[data-action] {
+    cursor: pointer;
+    color: #555;
+    font-size: 14px;
+    line-height: 24px;
+    transition: color 0.2s;
+}
+
+.setting a[data-action] i {
+    width: 1.25em;
+    text-align: center;
+}
+
+.setting a[data-action]:hover {
+    color: #f80;
+}
+
+.setting a[data-action].disabled {
+    opacity: 0.35;
+    cursor: default;
+}
+
+.setting a[data-action].disabled:hover {
+    color: #555;
+}
