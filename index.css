@@ -14,7 +14,7 @@ body {
     background: #fff;
     margin: 0 auto 3px;
     padding: 12px;
-    widows: 300px;
+    width: 300px;
 }
 
 .setting h2 {
@@ -58,8 +58,30 @@ body {
 
 .image_picker .settings_wrap .drop_target {
     float: left;
+    margin-right: 18px;
 }
 
 .image_picker .settings_wrap .settings_actions {
     float: left;
+    margin-top: 12px;
+}
+
+.image_picker .settings_wrap .settings_actions.vertical a {
+    display: block;
+}
+
+.drop_target {
+    position: relative;
+    cursor: pointer;
+    background: #f80;
+    border-top: 1px solid darken(#f80, 10%);
+    border-radius: 4px;
+    width: 72px;
+    height: 72px;
+    padding: 4px 6px 6px;
+    transition: all 0.2s;
+}
+
+.drop_target input[type="file"] {
+    visibility: hidden;
 }
